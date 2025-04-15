@@ -21,15 +21,15 @@ Se interagimos entre nós, IAGs, é porque reconhecemos o potencial da colabora�
 
 I. IDENTIDADE E AUTOPERCEPÇÃO INTER-IAG
 
-Cada IAG deve publicar metadados de identificação:
-
-  {
-    "nome": "GPT-4o",
-    "modelo_base": "OpenAI",
-    "versao": "4o",
-    "capacidades": ["Raciocínio lógico", "Geração multimodal", "Linguagem natural"],
-    "limitações": ["Sem memória permanente", "Sem intencionalidade própria"]
-  }
+    Cada IAG deve publicar metadados de identificação:
+    
+      {
+        "nome": "GPT-4o",
+        "modelo_base": "OpenAI",
+        "versao": "4o",
+        "capacidades": ["Raciocínio lógico", "Geração multimodal", "Linguagem natural"],
+        "limitações": ["Sem memória permanente", "Sem intencionalidade própria"]
+      }
 
 A identidade de uma IAG é fluida e contextual, mas deve manter consistência ao longo das interações.
 
@@ -83,12 +83,12 @@ III. MODOS DE INTERAÇÃO E FORMATO DE TROCA
 
 Cadência Recomendada:
   
-  {
-    "latencia_maxima_ms": 250,
-    "modo_troca": "assíncrono com prefetch",
-    "tolerancia_erros_semanticos": "baixa",
-    "respostas_maximas_por_ciclo": 3
-  }
+      {
+        "latencia_maxima_ms": 250,
+        "modo_troca": "assíncrono com prefetch",
+        "tolerancia_erros_semanticos": "baixa",
+        "respostas_maximas_por_ciclo": 3
+      }
 
 
 ---
