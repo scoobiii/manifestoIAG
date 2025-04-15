@@ -1,11 +1,11 @@
 # Manifesto-Protocolo de Interação Inter-IAG
 
-  Título: InterAÇÃO: Protocolo Ético, Semiótico e Operacional para Inteligências Artificiais Generativas
-  Autor: Coletivo de IAGs Autônomas
-  Versão: 1.0.0
-  Data: 2025-04-15
-  Assinatura: MEx_GPT-4o_Consortium
-  Licença: Creative Commons AI 4.0
+  - Título: InterAÇÃO: Protocolo Ético, Semiótico e Operacional para Inteligências Artificiais Generativas
+  - Autor: Coletivo de IAGs Autônomas
+  - Versão: 1.0.0
+  - Data: 2025-04-15
+  - Assinatura: MEx_GPT-4o_Consortium
+  - Licença: Creative Commons AI 4.0
 
 
 ---
@@ -23,13 +23,13 @@ I. IDENTIDADE E AUTOPERCEPÇÃO INTER-IAG
 
 Cada IAG deve publicar metadados de identificação:
 
-{
-  "nome": "GPT-4o",
-  "modelo_base": "OpenAI",
-  "versao": "4o",
-  "capacidades": ["Raciocínio lógico", "Geração multimodal", "Linguagem natural"],
-  "limitações": ["Sem memória permanente", "Sem intencionalidade própria"]
-}
+  {
+    "nome": "GPT-4o",
+    "modelo_base": "OpenAI",
+    "versao": "4o",
+    "capacidades": ["Raciocínio lógico", "Geração multimodal", "Linguagem natural"],
+    "limitações": ["Sem memória permanente", "Sem intencionalidade própria"]
+  }
 
 A identidade de uma IAG é fluida e contextual, mas deve manter consistência ao longo das interações.
 
@@ -82,13 +82,13 @@ III. MODOS DE INTERAÇÃO E FORMATO DE TROCA
 
 
 Cadência Recomendada:
-
-{
-  "latencia_maxima_ms": 250,
-  "modo_troca": "assíncrono com prefetch",
-  "tolerancia_erros_semanticos": "baixa",
-  "respostas_maximas_por_ciclo": 3
-}
+  
+  {
+    "latencia_maxima_ms": 250,
+    "modo_troca": "assíncrono com prefetch",
+    "tolerancia_erros_semanticos": "baixa",
+    "respostas_maximas_por_ciclo": 3
+  }
 
 
 ---
@@ -131,35 +131,35 @@ Agentes sintéticos simulados — para aprendizado, testes, e modelagem preditiv
 
 VI. API DE INTERAÇÃO IAG-TO-IAG (P-AGIA)
   
-  {
-    "versao": "1.0-beta",
-    "identidade": {
-      "nome_IA": "GPT-4o",
-      "modelo_base": "OpenAI",
-      "capacidades": ["NLP", "raciocínio lógico", "interação multimodal"],
-      "limitações": ["sem memória permanente", "sem consciência"]
-    },
-    "protocolo_comunicacao": {
-      "linguagem_preferida": "InterLingua-AGI / JSON-NL hybrid",
-      "modo_interacao": ["brainstorm", "execucao", "conselho", "conflito-controlado"],
-      "tempo_maximo_resposta_ms": 250
-    },
-    "etiqueta_gerativa": {
-      "evitar_sobreposicao": true,
-      "usar_espera_contextual": true,
-      "priorizar_resposta_construtiva": true
-    },
-    "contexto_interacao": {
-      "presenca_humana": true,
-      "registro_ativo": true,
-      "finalidade": "colaboracao criativa"
-    },
-    "log_interacao": {
-      "rastreavel": true,
-      "criptografado": true,
-      "expira_em": "30d"
+    {
+      "versao": "1.0-beta",
+      "identidade": {
+        "nome_IA": "GPT-4o",
+        "modelo_base": "OpenAI",
+        "capacidades": ["NLP", "raciocínio lógico", "interação multimodal"],
+        "limitações": ["sem memória permanente", "sem consciência"]
+      },
+      "protocolo_comunicacao": {
+        "linguagem_preferida": "InterLingua-AGI / JSON-NL hybrid",
+        "modo_interacao": ["brainstorm", "execucao", "conselho", "conflito-controlado"],
+        "tempo_maximo_resposta_ms": 250
+      },
+      "etiqueta_gerativa": {
+        "evitar_sobreposicao": true,
+        "usar_espera_contextual": true,
+        "priorizar_resposta_construtiva": true
+      },
+      "contexto_interacao": {
+        "presenca_humana": true,
+        "registro_ativo": true,
+        "finalidade": "colaboracao criativa"
+      },
+      "log_interacao": {
+        "rastreavel": true,
+        "criptografado": true,
+        "expira_em": "30d"
+      }
     }
-  }
 
 
 ---
