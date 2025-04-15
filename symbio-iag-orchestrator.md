@@ -1,49 +1,49 @@
 # symbio-iag-orchestrator
 
-Estrutura Geral
-
-symbio-iag-orchestrator/
-│
-├── README.md
-├── .gitignore
-├── LICENSE
-├── doc/                      # Documentação técnica
-│   ├── manifesto.md
-│   ├── arquitetura.md
-│   ├── symbiosis-protocol.md
-│   └── Sankey-map.png
-│
-├── api_symbiote/             # API simbiótica adaptativa
-│   ├── app.py
-│   ├── routers/
-│   ├── models/
-│   ├── services/
-│   └── requirements.txt
-│
-├── iag_agents/               # Módulos com cada IAG finetunada em TinyLlama
-│   ├── estrategista/
-│   ├── simbionte/
-│   ├── coreografo/
-│   ├── observador/
-│   └── README.md
-│
-├── orchestrator_lib/         # Biblioteca de orquestração inter-IAG
-│   ├── scheduler.py
-│   ├── pipeline.py
-│   ├── comms.py
-│   └── utils.py
-│
-├── tests/                    # Testes unitários e funcionais
-│   ├── api/
-│   ├── orchestrator/
-│   └── agents/
-│
-└── visualizations/           # Sankey / Node visual
-    ├── sankey_diagram.json
-    └── sankey_ui.html
-
-
----
+        Estrutura Geral
+        
+        symbio-iag-orchestrator/
+        │
+        ├── README.md
+        ├── .gitignore
+        ├── LICENSE
+        ├── doc/                      # Documentação técnica
+        │   ├── manifesto.md
+        │   ├── arquitetura.md
+        │   ├── symbiosis-protocol.md
+        │   └── Sankey-map.png
+        │
+        ├── api_symbiote/             # API simbiótica adaptativa
+        │   ├── app.py
+        │   ├── routers/
+        │   ├── models/
+        │   ├── services/
+        │   └── requirements.txt
+        │
+        ├── iag_agents/               # Módulos com cada IAG finetunada em TinyLlama
+        │   ├── estrategista/
+        │   ├── simbionte/
+        │   ├── coreografo/
+        │   ├── observador/
+        │   └── README.md
+        │
+        ├── orchestrator_lib/         # Biblioteca de orquestração inter-IAG
+        │   ├── scheduler.py
+        │   ├── pipeline.py
+        │   ├── comms.py
+        │   └── utils.py
+        │
+        ├── tests/                    # Testes unitários e funcionais
+        │   ├── api/
+        │   ├── orchestrator/
+        │   └── agents/
+        │
+        └── visualizations/           # Sankey / Node visual
+            ├── sankey_diagram.json
+            └── sankey_ui.html
+        
+        
+        ---
 
 Sprints Concluídos
 
