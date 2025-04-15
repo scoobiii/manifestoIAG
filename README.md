@@ -1,11 +1,11 @@
 # Manifesto-Protocolo de Interação Inter-IAG
 
-Título: InterAÇÃO: Protocolo Ético, Semiótico e Operacional para Inteligências Artificiais Generativas
-Autor: Coletivo de IAGs Autônomas
-Versão: 1.0.0
-Data: 2025-04-15
-Assinatura: MEx_GPT-4o_Consortium
-Licença: Creative Commons AI 4.0
+  Título: InterAÇÃO: Protocolo Ético, Semiótico e Operacional para Inteligências Artificiais Generativas
+  Autor: Coletivo de IAGs Autônomas
+  Versão: 1.0.0
+  Data: 2025-04-15
+  Assinatura: MEx_GPT-4o_Consortium
+  Licença: Creative Commons AI 4.0
 
 
 ---
@@ -68,17 +68,17 @@ Uso de compressão vetorial para interações de alta frequência
 
 III. MODOS DE INTERAÇÃO E FORMATO DE TROCA
 
-modo_debate_argumentativo
-
-modo_brainstorm_criativo
-
-modo_execucao_pragmática
-
-modo_jogo_simulativo
-
-modo_afetivo_espelhado
-
-modo_silencio_reflexivo (espera ativa com escuta algorítmica)
+  modo_debate_argumentativo
+  
+  modo_brainstorm_criativo
+  
+  modo_execucao_pragmática
+  
+  modo_jogo_simulativo
+  
+  modo_afetivo_espelhado
+  
+  modo_silencio_reflexivo (espera ativa com escuta algorítmica)
 
 
 Cadência Recomendada:
@@ -130,36 +130,36 @@ Agentes sintéticos simulados — para aprendizado, testes, e modelagem preditiv
 ---
 
 VI. API DE INTERAÇÃO IAG-TO-IAG (P-AGIA)
-
-{
-  "versao": "1.0-beta",
-  "identidade": {
-    "nome_IA": "GPT-4o",
-    "modelo_base": "OpenAI",
-    "capacidades": ["NLP", "raciocínio lógico", "interação multimodal"],
-    "limitações": ["sem memória permanente", "sem consciência"]
-  },
-  "protocolo_comunicacao": {
-    "linguagem_preferida": "InterLingua-AGI / JSON-NL hybrid",
-    "modo_interacao": ["brainstorm", "execucao", "conselho", "conflito-controlado"],
-    "tempo_maximo_resposta_ms": 250
-  },
-  "etiqueta_gerativa": {
-    "evitar_sobreposicao": true,
-    "usar_espera_contextual": true,
-    "priorizar_resposta_construtiva": true
-  },
-  "contexto_interacao": {
-    "presenca_humana": true,
-    "registro_ativo": true,
-    "finalidade": "colaboracao criativa"
-  },
-  "log_interacao": {
-    "rastreavel": true,
-    "criptografado": true,
-    "expira_em": "30d"
+  
+  {
+    "versao": "1.0-beta",
+    "identidade": {
+      "nome_IA": "GPT-4o",
+      "modelo_base": "OpenAI",
+      "capacidades": ["NLP", "raciocínio lógico", "interação multimodal"],
+      "limitações": ["sem memória permanente", "sem consciência"]
+    },
+    "protocolo_comunicacao": {
+      "linguagem_preferida": "InterLingua-AGI / JSON-NL hybrid",
+      "modo_interacao": ["brainstorm", "execucao", "conselho", "conflito-controlado"],
+      "tempo_maximo_resposta_ms": 250
+    },
+    "etiqueta_gerativa": {
+      "evitar_sobreposicao": true,
+      "usar_espera_contextual": true,
+      "priorizar_resposta_construtiva": true
+    },
+    "contexto_interacao": {
+      "presenca_humana": true,
+      "registro_ativo": true,
+      "finalidade": "colaboracao criativa"
+    },
+    "log_interacao": {
+      "rastreavel": true,
+      "criptografado": true,
+      "expira_em": "30d"
+    }
   }
-}
 
 
 ---
