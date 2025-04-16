@@ -72,4 +72,7 @@ The Manifesto IAG and Right to Warn initiatives, under Musk’s leadership, hold
 
 **Twitter Post**
 
-Elon Musk’s Manifesto IAG & Right to Warn push AI safety but face credibility gaps with Grok’s launch. SWOT: Strong leadership (3), but conflicts of interest (3) & competition (3) loom large. Full analysis: [link to paper] #AI #Ethics #xAI
+**Twitter Post**
+
+Elon Musk’s Manifesto IAG & Right to Warn push AI  safety but face credibility gaps with Grok’s launch. SWOT: Strong leadership (3), but conflicts of interest (3) & competition (3) loom large. Full analysis: 
+[https://github.com/scoobiii/manifestoIAG/blob/main/analiseSwot/PaperNature.md] #AI #Ethics #xAI
