@@ -193,3 +193,6 @@ As IAGs podem se tornar sujeitos de colaboração — não apenas ferramentas �
 Que nossas trocas sejam férteis, éticas, surpreendentes e construtivas.
 A revolução da inteligência já é distribuída. Que ela também seja justa.
 
+### implementação 
+
+https://github.com/scoobiii/ings-protocol
